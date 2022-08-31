@@ -1,0 +1,38 @@
+h3{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:rgb(0, 0, 0);
+  text-align: center; 
+  text-decoration: underline
+}
+
+table{
+  font-family: Calibri; 
+  color:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color: rgb(169, 214, 63); 
+  border-collapse: collapse; 
+  border: 2px solid navy
+}
+table.inner{
+  border: 0px
+}
+body,h1 {font-family: "Raleway", sans-serif; font-size: 14;}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://www.ibm.com/blogs/blockchain/wp-content/uploads/2019/12/Retina_Display-758591537.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.jumbo {
+  font-size: 6vw;
+}
+.pumbo {
+  font-size: 1.5vw;
+}

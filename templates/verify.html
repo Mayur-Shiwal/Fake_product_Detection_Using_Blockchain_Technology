@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MAVTAG</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://www.ibm.com/blogs/blockchain/wp-content/uploads/2019/12/Retina_Display-758591537.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.jumbo {
+  font-size: 6vw;
+}
+.pumbo {
+  font-size: 1.5vw;
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    MAVTAG
+  </div>
+  <div class="w3-display-middle">
+    <!-- <form method="POST" action="http://localhost:8080/"> -->
+    <form method="POST" action="http://127.0.0.1:5000/verify">
+      <p class="jumbo w3-animate-top"><input type="text" name="keyId" value={{keyId}}></p>
+      <hr class="w3-border-grey" style="margin:auto;width:40%">
+      <p class="pumbo w3-center"><button type="submit">Verify</button></p>
+    </form>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by MAVTAG
+  </div>
+</div>
+
+</body>
+</html>
